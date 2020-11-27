@@ -2,7 +2,6 @@ const { chdir } = require("process");
 const { compileFunction } = require("vm");
 const { XMLHttpRequest } = require("xmlhttprequest")
 
-// reuire ---> akin to "import"
 let XMLhttprequest =  require("xmlhttprequest").XMLHttpRequest
 
 const getUrl =  "http://127.0.0.1:3000/employees/"
